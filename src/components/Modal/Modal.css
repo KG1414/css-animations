@@ -14,11 +14,11 @@
 }
 
 .ModalOpen {
-    /* visibility: visible; */
+    animation: openModal 0.3s ease-out forwards;
 }
 
 .ModalClosed {
-    /* visibility: hidden; */
+    animation: closeModal 1s ease-out forwards;
 }
 
 .fade-slide-enter {
